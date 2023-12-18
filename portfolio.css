@@ -1,5 +1,15 @@
 
 /* navigation links */
-.navbar a {
-color: white
+
+.navbar {
+    background-color: grey;
+    }
+
+.navbar a { 
+color: white;
+font-size: larger;
 }
+
+
+
+

@@ -10,17 +10,16 @@
     <title>Tracey Pender</title>
 
     <!-- Navigation bar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
+    <nav class="navbar navbar-expand-lg  customNav">
+        <div class="container-fluid">          
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link" href="#">About</a>
-              <a class="nav-link" href="#">Projects</a>
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#about">About</a>
+              <a class="nav-link" href="#projects">Projects</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </div>
           </div>
         </div>
@@ -34,11 +33,19 @@
 <div class="row mt-3"></div>
 
     <div class="jumbotron">
-        <div class="container text-left">
-          <div class="row">
-            <div class="col">
+        <div class="container">
+          <div class="row">              
+            <div class="col text-center">
+              <br>
               <h1>Tracey Pender</h1>
-              <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+              <br>
+              <H2>EdX Student: Web Development</H2>
+              <p>inc. HTML, CSS (Flexbox, Grid and Media Queries), Git, UX, Bootstrap, JavaScript, Web APIs, Third-Party APIs jQuery and Day.js, Server APIs, ES6 and Node.js, Test-Driven Development, Development with React</p>
+              <br>
+              <a id="about">
+              <h2>About Me</h2>
+              </a>
+              <p>BA Business Studies. Experience in promoting independence in tenancies, families and for people with a learning disability.</p>
                </div>
             <div class="col">
               <img class="img-fluid" src="./images/avatar_grey.png" alt="avatar of a woman with brown hair">
@@ -56,10 +63,14 @@
         <!-- projects container first row -->
         <div class="row justify-content-end">
           <div class="col-4">
+            <a id="projects">
             Projects
+          </a>
           </div>
           <div class="col-8">
+            <a href="https://traceypen.github.io/Horiseon/">
             <img src="./images/horiseon_screenshot.png" class="img-fluid" alt="Horiseon accessibility project">
+          </a>
            </div>
         </div>
         <!-- end of first row of projects -->
@@ -67,7 +78,7 @@
         <br>
 
         <!-- projects container second row-->
-        <div class="row justify-content-evenly">
+        <div class="row justify-content-evenly secondRow">
           <div class="col-4">
             <img src="./images/02-hero-bg.jpg" class="img-fluid" alt="zebra project">
           </div>
@@ -83,7 +94,7 @@
          <br>
 
         <!-- projects container third row -->
-        <div class="row justify-content-evenly">
+        <div class="row justify-content-evenly thirdRow">
          <div class="col-4">
           <img src="./images/02-portfolio-3.jpg" class="img-fluid" alt="car project">
          </div>
@@ -99,7 +110,11 @@
     </div>
     <!-- end of projects container -->
 
-
+<!-- contact information -->
+<a id="contact">
+<h3>Contact</h3>
+</a>
+<p>traceylpender@yahoo.co.uk</p>
 
   
 
